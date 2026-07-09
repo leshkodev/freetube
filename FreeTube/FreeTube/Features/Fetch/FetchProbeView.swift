@@ -362,7 +362,7 @@ struct FetchProbeView: View {
             }
             Spacer()
             if let total = estimatedTotalBytes() {
-                Text("≈ \(byteString(total))")
+                Text(verbatim: "≈ \(byteString(total))")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
@@ -505,11 +505,11 @@ struct FetchJobRow: View {
         case .queued: Text("Queued")
         case .downloading(let progress, let phase):
             if let phase, let progress {
-                Text("\(phase) · \(Int(progress * 100))%")
+                Text(verbatim: "\(phase) · \(Int(progress * 100))%")
             } else if let phase {
                 Text("\(phase) · streaming…")
             } else if let progress {
-                Text("\(Int(progress * 100))%")
+                Text(verbatim: "\(Int(progress * 100))%")
             } else {
                 Text("Streaming…")
             }

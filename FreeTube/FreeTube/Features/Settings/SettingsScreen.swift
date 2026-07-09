@@ -111,7 +111,7 @@ struct SettingsScreen: View {
                         }
                     }
                 } header: {
-                    Text("yt-dlp")
+                    Text(verbatim: "yt-dlp")
                 } footer: {
                     Text("yt-dlp is the engine that resolves YouTube stream URLs. FreeTube auto-refreshes it every 7 days from the official GitHub release. Tap Update now if a video stops playing — newer versions often fix breakage caused by YouTube's API changes.")
                 }

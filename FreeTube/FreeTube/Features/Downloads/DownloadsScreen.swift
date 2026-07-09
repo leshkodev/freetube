@@ -163,7 +163,7 @@ struct DownloadsScreen: View {
         VStack(alignment: .leading, spacing: 2) {
             Text("Saved on device").font(.subheadline.weight(.semibold)).foregroundStyle(.primary)
             if totalCount > 0 {
-                Text("\(totalCount) \(totalCount == 1 ? "video" : "videos") • \(ByteCountFormatter.string(fromByteCount: totalSize, countStyle: .file))")
+                Text(verbatim: "\(totalCount) \(totalCount == 1 ? "video" : "videos") • \(ByteCountFormatter.string(fromByteCount: totalSize, countStyle: .file))")
                     .font(.caption)
                     .foregroundStyle(.secondary)
             }
@@ -229,7 +229,7 @@ struct DownloadsScreen: View {
                 HStack(spacing: 6) {
                     Text(formatSize(item.fileSize))
                     if let dur = item.duration {
-                        Text("• \(formatDuration(dur))")
+                        Text(verbatim: "• \(formatDuration(dur))")
                     }
                 }
                 .font(.caption2)
@@ -336,7 +336,7 @@ struct DownloadsScreen: View {
                     Image(systemName: "arrow.down.circle.fill")
                         .symbolEffect(.pulse, options: .repeating, value: inProgress.count)
                         .foregroundStyle(.tint)
-                    Text("\(inProgress.count)")
+                    Text(verbatim: "\(inProgress.count)")
                         .font(.caption.weight(.semibold))
                         .contentTransition(.numericText())
                         .animation(.spring, value: inProgress.count)

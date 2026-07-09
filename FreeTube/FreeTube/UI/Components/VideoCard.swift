@@ -28,7 +28,7 @@ struct VideoCard: View {
             }
             .buttonStyle(.plain)
             .accessibilityElement(children: .combine)
-            .accessibilityLabel("\(video.title), \(video.channelName)")
+            .accessibilityLabel(Text(verbatim: "\(video.title), \(video.channelName)"))
 
             // Metadata row is split into its own HStack so the ellipsis Menu can live as a
             // sibling of the title/avatar tap target (which still routes to `onTap`). Nesting
