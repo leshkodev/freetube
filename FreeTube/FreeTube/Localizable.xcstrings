@@ -137,6 +137,9 @@
         }
       }
     },
+    "%lld" : {
+
+    },
     "%lld items" : {
       "extractionState" : "stale",
       "localizations" : {
@@ -308,6 +311,9 @@
           }
         }
       }
+    },
+    "%lld%%" : {
+
     },
     "1 (sequential)" : {
       "localizations" : {
@@ -7178,13 +7184,13 @@
     },
     "v%@ (%@) — [freetube.io](https://freetube.io)" : {
       "localizations" : {
-        "en" : {
+        "de" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "v%1$@ (%2$@) — [freetube.io](https://freetube.io)"
           }
         },
-        "de" : {
+        "en" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "v%1$@ (%2$@) — [freetube.io](https://freetube.io)"
