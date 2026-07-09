@@ -1,0 +1,114 @@
+{
+  "originHash" : "d11c95bc79e9a530b4ad2e0d1589fc49c0a0389386d4286ad2e82c55cac7e846",
+  "pins" : [
+    {
+      "identity" : "ffmpeg-ios-lame",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/FFmpeg-iOS-Lame",
+      "state" : {
+        "revision" : "1808fa5a1263c5e216646cd8421fc7dcb70520cc",
+        "version" : "0.0.6-b20230730-000000"
+      }
+    },
+    {
+      "identity" : "ffmpeg-ios-support",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/FFmpeg-iOS-Support",
+      "state" : {
+        "revision" : "be3bd9149ac53760e8725652eee99c405b2be47a",
+        "version" : "0.0.2"
+      }
+    },
+    {
+      "identity" : "keychainaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kishikawakatsumi/keychainaccess",
+      "state" : {
+        "branch" : "master",
+        "revision" : "e0c7eebc5a4465a3c4680764f26b7a61f567cdaf"
+      }
+    },
+    {
+      "identity" : "kingfisher",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/onevcat/Kingfisher.git",
+      "state" : {
+        "revision" : "cf8be20d07654570554c8a8a4952bc8a5766a8b0",
+        "version" : "8.9.0"
+      }
+    },
+    {
+      "identity" : "lnpopupcontroller",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LeoNatan/LNPopupController.git",
+      "state" : {
+        "revision" : "6f4bfa89a32cc7254599869b4bca8d2638e74671",
+        "version" : "4.4.1"
+      }
+    },
+    {
+      "identity" : "lnpopupui",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LeoNatan/LNPopupUI.git",
+      "state" : {
+        "revision" : "715bf763ae4afcc4c1a9e3d720784713d6c58ac6",
+        "version" : "3.0.2"
+      }
+    },
+    {
+      "identity" : "lnswiftuiutils",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/LeoNatan/LNSwiftUIUtils.git",
+      "state" : {
+        "revision" : "181a95b992f84d99a14c562c86e8ebef3cbcdca9",
+        "version" : "1.1.5"
+      }
+    },
+    {
+      "identity" : "python-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/Python-iOS.git",
+      "state" : {
+        "revision" : "4f3ca2bc0cff1ef2511555eb6114f9eb12e50412",
+        "version" : "0.1.1-b20230423-090254"
+      }
+    },
+    {
+      "identity" : "pythonkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/pvieito/PythonKit.git",
+      "state" : {
+        "revision" : "6fee7617cfa910fbac7035276e295ba967adbbb4",
+        "version" : "0.5.1"
+      }
+    },
+    {
+      "identity" : "swimplyplayindicator",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/obrhoff/SwimplyPlayIndicator.git",
+      "state" : {
+        "revision" : "b6cff801f62d5cb45372461666a5e0bf4cac9447",
+        "version" : "1.2.0"
+      }
+    },
+    {
+      "identity" : "youtubedl-ios",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kewlbear/YoutubeDL-iOS.git",
+      "state" : {
+        "revision" : "64d9072cc33d2698b555d68cecf3d71f2f49b8dd",
+        "version" : "0.0.9"
+      }
+    },
+    {
+      "identity" : "youtubekit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/b5i/YouTubeKit",
+      "state" : {
+        "branch" : "main",
+        "revision" : "236264622aee6f60b6dd7731a629cc4be3f34bc1"
+      }
+    }
+  ],
+  "version" : 3
+}
