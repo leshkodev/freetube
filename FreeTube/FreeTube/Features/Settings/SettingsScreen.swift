@@ -175,7 +175,9 @@ struct SettingsScreen: View {
                 } header: {
                     Text("About")
                 } footer: {
-                    Text("v0.1 — \(Bundle.main.bundleIdentifier ?? "")")
+                    let version = Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "?"
+                    let build = Bundle.main.infoDictionary?["CFBundleVersion"] as? String ?? "?"
+                    Text("v\(version) (\(build)) — [freetube.io](https://freetube.io)")
                 }
             }
             .navigationTitle("Settings")
